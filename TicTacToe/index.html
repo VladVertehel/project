@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="shortcut icon" href="ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div style="margin-top: 75vh;">
+        <button id="btn">Reset Field</button>
+        <div class="score-el">X⠀-⠀O</div>
+        <div class="score" style="margin-top: 15px;">
+            <div class="score_x">0</div>
+            ⠀:⠀
+            <div class="score_o">0</div>
+        </div>
+    </div>
+    <div class="field">
+        <div class="tile hover"></div>
+        <div class="tile hover"></div>
+        <div class="tile hover"></div>
+        <div class="tile hover"></div>
+        <div class="tile hover"></div>
+        <div class="tile hover"></div>
+        <div class="tile hover"></div>
+        <div class="tile hover"></div>
+        <div class="tile hover"></div>
+
+        <div class="winline" id="horisontal1"></div>
+        <div class="winline" id="horisontal2"></div>
+        <div class="winline" id="horisontal3"></div>
+        <div class="winline" id="vertical1"></div>
+        <div class="winline" id="vertical2"></div>
+        <div class="winline" id="vertical3"></div>
+        <div class="winline" id="diagonal1"></div>
+        <div class="winline" id="diagonal2"></div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>

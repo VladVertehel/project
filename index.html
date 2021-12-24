@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div style="display: flex;">
+        <nav class="move">
+            <div class="logo">
+                <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="user" />
+            </div>
+            <ul>
+                <li><a href="/Calculator2.0/">Calculator</a></li>
+                <li><a href="/TicTacToe/">Tic Tac Toe</a></li>
+                <li><a href="/Slider/">Slider</a></li>
+            </ul>
+        </nav>
+        <header>
+            <button id="toggle"><i class="fa fa-bars fa-2x"></i>B</button>
+            <h1>My Page</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ea non impedit. Voluptatem necessitatibus
+                expedita ducimus impedit eum? Quae hic rerum facere accusamus omnis nemo deleniti reiciendis modi et
+                nisi.
+                Eveniet quos pariatur at porro sapiente, ipsa ipsam fuga harum accusantium dolorum vero aut temporibus
+                id
+                maiores esse, sit alias mollitia nemo? Repudiandae harum ipsam voluptates facere voluptatum consequuntur
+                voluptatem.
+                Qui enim deserunt dolore, sapiente nulla dolores nisi? Eligendi ex amet esse nobis? Minima pariatur rem
+                asperiores distinctio dolor, minus eveniet autem consequuntur inventore quas, suscipit sed ab accusamus
+                maiores?
+                Sed voluptate iure nam delectus dicta sequi dolorum, eaque adipisci nobis ducimus aliquam eos ut
+                deleniti,
+                quis odio, eum officiis! Quaerat, magnam. Quaerat rem neque, vitae ullam delectus fugiat porro!</p>
+            <button class="cta-btn" id="open">Sign Up</button>
+        </header>
+    </div>
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                Х
+            </button>
+            <div class="modal-header">
+                <h3>Sign Up</h3>
+            </div>
+            <div class="modal-content">
+                <p>Register with us to get offers, support and more</p>
+                <form class="modal-form">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter Name" class="form-input" />
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter Email" class="form-input" />
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter Password" class="form-input" />
+                    </div>
+                    <div>
+                        <label for="password2">Confirm Password</label>
+                        <input type="password" id="password2" placeholder="Confirm Password" class="form-input" />
+                    </div>
+                    <input type="submit" value="Submit" class="submit-btn" />
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>
